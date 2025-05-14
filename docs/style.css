@@ -1,5 +1,6 @@
 :root {
   --border-radius: 30px;
+  --title-color: #EFD162;
 }
 
 html, body {
@@ -26,7 +27,7 @@ html, body {
 
 .index_page .sec-01 > nav {
   font-size: 68px;
-  color: #EFD162;
+  color: var(--title-color);
   -webkit-text-stroke: 2px black;
   text-shadow: 5px 5px rgb(67, 67, 67);
   paint-order: stroke fill;
@@ -83,10 +84,21 @@ html, body {
 
 .choice_page .sec-01 > nav {
   font-size: 45px;
-  color: #EFD162;
+  color: var(--title-color);
   -webkit-text-stroke: 2px black;
   text-shadow: 4px 4px rgb(67, 67, 67);
   paint-order: stroke fill;
+}
+
+/* sec-02 */
+.choice_page .sec-02 {
+  padding: 5%;
+}
+
+.choice_page .sec-02 > .choice-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
 }
 
 /* sec-03 */
@@ -115,5 +127,57 @@ html, body {
 }
 
 .choice_page .sec-03 > a > i:active {
+  transform: scale(0.9);
+}
+
+/* timer page */
+.timer_page {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100vh;
+}
+
+/* sec-01 */
+.timer_page .sec-01 {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.timer_page .sec-01 > nav {
+  font-size: 50px;
+  color: var(--title-color);
+  -webkit-text-stroke: 2px black;
+  text-shadow: 4px 4px rgb(67, 67, 67);
+  paint-order: stroke fill;
+}
+
+/* sec-03 */
+.timer_page .sec-03 {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.timer_page .sec-03 > a {
+  height: 100%;
+  width: 30%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer_page .sec-03 > a > i {
+  font-size: 50px;
+  color: #efd18d;
+}
+
+.timer_page .sec-03 > a > i:hover {
+  color: #feca61;
+}
+
+.timer_page .sec-03 > a > i:active {
   transform: scale(0.9);
 }

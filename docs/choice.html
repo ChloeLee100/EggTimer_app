@@ -16,6 +16,11 @@
 
   <!-- Tailwindcss -->
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <script defer src="timer.js"></script>
 </head>
 <body class="choice_page">
   <section class="sec-01 h-[20%]">
@@ -23,20 +28,20 @@
       CHOOSE YOUR EGG
     </nav>
   </section>
-  <section class="sec-02 h-[60%]">
-    <div class="choice-box">
-      <div>
-
-      </div>
-      <div>
-
-      </div>
-      <div>
-
-      </div>
-      <div>
-
-      </div>
+  <section class="sec-02 h-[60%] bg-red-200">
+    <div class="choice-box bg-green-200">
+      <a href="#" class="egg-option" onclick="startTimer(6, 'RUNNY YOLK')">
+        <img src="" alt="Runny Yolk">
+      </a>
+      <a href="#" class="egg-option" onclick="startTimer(8, 'SOFT BOILED')">
+        <img src="" alt="Soft Boiled">
+      </a>
+      <a href="#" class="egg-option" onclick="startTimer(10, 'HARD BOILED')">
+        <img src="" alt="Hard Boiled">
+      </a>
+      <a href="#" class="egg-option" onclick="startTimer(15, 'OVER COOKED')">
+        <img src="" alt="Over Cooked">
+      </a>
     </div>
   </section>
   <section class="sec-03 h-[20%]">
