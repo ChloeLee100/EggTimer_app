@@ -1,8 +1,10 @@
-require('electron-reload')(__dirname, {
-  electron: require('path').join(__dirname, 'node_modules', '.bin', 'electron')
-});
-
 const { app, BrowserWindow } = require('electron');
+
+if (!app.isPackaged) {
+  require('electron-reload')(__dirname, {
+    electron: require('path').join(__dirname, 'node_modules', '.bin', 'electron')
+  });
+}
 
 function createWindow() {
   const win = new BrowserWindow({
