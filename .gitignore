@@ -2,3 +2,10 @@ node_modules/
 .DS_Store
 *.lognode_modules/
 .DS_Store
+
+dist/
+out/
+*.dmg
+*.exe
+*.app
+*.apk
