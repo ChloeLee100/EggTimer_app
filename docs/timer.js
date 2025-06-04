@@ -7,7 +7,7 @@ let time;
 let totalTime;
 let countdownElement;
 
-const alarmAudio = new Audio('../images/alarm.wav');
+const alarmAudio = new Audio('/EggTimer_app/images/alarm.wav');
 alarmAudio.loop = true;
 
 if (window.location.href.includes('timer.html')) {
