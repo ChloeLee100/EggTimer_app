@@ -6,9 +6,10 @@
 html, body {
   font-family: "Itim", cursive;
   background-color: #FDF0A6;
-  max-width: 450px;
-  height: 100vh;
+  width: 100%;
+  height: 100dvh;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 /* index page */
