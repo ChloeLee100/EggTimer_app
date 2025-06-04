@@ -43,8 +43,8 @@ body.index_page {
   font-size: 68px;
   color: var(--title-color);
   -webkit-text-stroke: 2px black;
-  text-shadow: 5px 5px rgb(67, 67, 67);
-  paint-order: stroke fill;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* paint-order: stroke fill; */
   cursor: pointer;
 }
 
@@ -93,9 +93,11 @@ body.index_page {
 /* sec-01 */
 .choice_page .sec-01 {
   display: flex;
-  align-items: end;
+  align-items: center;
   justify-content: center;
+  text-align: center;
   padding-bottom: 5%;
+  width: 90%;
 }
 
 .choice_page .sec-01 > nav {
