@@ -42,8 +42,8 @@ body.index_page {
 .index_page .sec-01 > nav {
   font-size: 68px;
   color: var(--title-color);
-  -webkit-text-stroke: 2px black;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke: 5px black;
+  text-shadow: 4px 4px rgb(67, 67, 67);
   /* paint-order: stroke fill; */
   cursor: pointer;
 }
@@ -97,10 +97,11 @@ body.index_page {
   justify-content: center;
   text-align: center;
   padding-bottom: 5%;
-  width: 90%;
+  width: 100%;
 }
 
 .choice_page .sec-01 > nav {
+  width: 90%;
   font-size: 45px;
   color: var(--title-color);
   -webkit-text-stroke: 2px black;
