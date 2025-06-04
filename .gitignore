@@ -8,4 +8,4 @@ out/
 *.dmg
 *.exe
 *.app
-*.apk
+*.apkdist/

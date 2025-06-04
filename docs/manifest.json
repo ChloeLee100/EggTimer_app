@@ -1,0 +1,16 @@
+{
+  "name": "Egg Timer",
+  "short_name": "Timer",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "../images/icon.icns",
+      "type": "image/icns"
+    },
+    {
+      "src": "../images/icon.icns",
+      "type": "image/icns"
+    }
+  ]
+}
