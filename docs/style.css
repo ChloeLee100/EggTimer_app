@@ -87,7 +87,7 @@ body.index_page {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  height: 100vh;
+  height: 100%;
 }
 
 /* sec-01 */
@@ -179,7 +179,7 @@ body.index_page {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  height: 100vh;
+  height: 100%;
 }
 
 /* sec-01 */
@@ -296,7 +296,7 @@ body.index_page {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  height: 100vh;
+  height: 100%;
 }
 
 /* sec-01 */
