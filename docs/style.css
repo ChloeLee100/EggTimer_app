@@ -6,8 +6,9 @@
 html, body {
   font-family: "Itim", cursive;
   background-color: #FDF0A6;
-  height: 100%;
-  margin: 0;
+  max-width: 450px;
+  height: 100vh;
+  margin: 0 auto;
 }
 
 /* index page */

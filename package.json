@@ -17,7 +17,7 @@
     },
     "files": [
       "docs/*",
-      "images/*",
+      "docs/images/*",
       "main.js",
       "package.json"
     ],

@@ -6,13 +6,13 @@ const urlsToCache = [
   "timerEnd.html",
   "style.css",
   "timer.js",
-  "../images/softBoiled.PNG",
-  "../images/hardBoiled.PNG",
-  "../images/runnyYolk.PNG",
-  "../images/overCooked.PNG",
-  "../images/best.PNG",
-  "../images/icon.icns",
-  "../images/alarm.way"
+  "images/softboiled.png",
+  "images/hardboiled.png",
+  "images/runnyyolk.png",
+  "images/overcooked.png",
+  "images/best.png",
+  "images/icon.icns",
+  "images/alarm.way"
 ];
 
 self.addEventListener("install", event => {
