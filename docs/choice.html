@@ -23,36 +23,38 @@
   <script defer src="timer.js"></script>
 </head>
 <body class="choice_page">
-  <section class="sec-01 h-[20%]">
-    <nav>
-      CHOOSE YOUR EGG
-    </nav>
-  </section>
-  <section class="sec-02 h-[60%]">
-    <div class="choice-box">
-      <a href="#" class="egg-option" onclick="startTimer(6, 'RUNNY YOLK')">
-        <img src="images/runnyyolk.png" alt="Runny Yolk">
-        <nav>Runny Yolk</nav>
+  <div class="app-wrapper">
+    <section class="sec-01 h-[20%]">
+      <nav>
+        CHOOSE YOUR EGG
+      </nav>
+    </section>
+    <section class="sec-02 h-[60%]">
+      <div class="choice-box">
+        <a href="#" class="egg-option" onclick="startTimer(6, 'RUNNY YOLK')">
+          <img src="images/runnyyolk.png" alt="Runny Yolk">
+          <nav>Runny Yolk</nav>
+        </a>
+        <a href="#" class="egg-option" onclick="startTimer(8, 'SOFT BOILED')">
+          <img src="images/best.png" alt="Best" class="best">
+          <img src="images/softboiled.png" alt="Soft Boiled">
+          <nav>Soft Boiled</nav>
+        </a>
+        <a href="#" class="egg-option" onclick="startTimer(10, 'HARD BOILED')">
+          <img src="images/hardboiled.png" alt="Hard Boiled">
+          <nav>Hard Boiled</nav>
+        </a>
+        <a href="#" class="egg-option" onclick="startTimer(15, 'OVER COOKED')">
+          <img src="images/overcooked.png" alt="Over Cooked">
+          <nav>Over Cooked</nav>
+        </a>
+      </div>
+    </section>
+    <section class="sec-03 h-[20%]">
+      <a href="index.html" class="home_icon">
+        <i class="fa-solid fa-house"></i>
       </a>
-      <a href="#" class="egg-option" onclick="startTimer(8, 'SOFT BOILED')">
-        <img src="images/best.png" alt="Best" class="best">
-        <img src="images/softboiled.png" alt="Soft Boiled">
-        <nav>Soft Boiled</nav>
-      </a>
-      <a href="#" class="egg-option" onclick="startTimer(10, 'HARD BOILED')">
-        <img src="images/hardboiled.png" alt="Hard Boiled">
-        <nav>Hard Boiled</nav>
-      </a>
-      <a href="#" class="egg-option" onclick="startTimer(15, 'OVER COOKED')">
-        <img src="images/overcooked.png" alt="Over Cooked">
-        <nav>Over Cooked</nav>
-      </a>
-    </div>
-  </section>
-  <section class="sec-03 h-[20%]">
-    <a href="index.html" class="home_icon">
-      <i class="fa-solid fa-house"></i>
-    </a>
-  </section>
+    </section>
+  </div>
 </body>
 </html>

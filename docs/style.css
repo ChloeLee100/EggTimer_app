@@ -28,7 +28,8 @@ body.index_page {
   height: 100%;
   overflow: hidden;
   display: flex;
-  justify-content: space-between;
+  justify-content: stretch;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -84,10 +85,10 @@ body.index_page {
 
 /* choice page */
 .choice_page {
+  height: 100dvh;
   display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 /* sec-01 */
@@ -176,10 +177,10 @@ body.index_page {
 
 /* timer page */
 .timer_page {
+  height: 100dvh;
   display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 /* sec-01 */
@@ -293,10 +294,10 @@ body.index_page {
 
 /* timer end page */
 .timerEnd_page {
+  height: 100dvh;
   display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 /* sec-01 */
