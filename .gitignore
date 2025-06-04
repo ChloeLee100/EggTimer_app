@@ -9,3 +9,4 @@ out/
 *.exe
 *.app
 *.apkdist/
+dist/
