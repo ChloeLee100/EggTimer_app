@@ -20,6 +20,13 @@ html, body {
   height: 100vh;
 }
 
+.app-wrapper {
+  max-width: 450px;
+  height: 100dvh;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
 /* sec-01 */
 .index_page .sec-01 {
   display: flex;
