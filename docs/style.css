@@ -6,25 +6,21 @@
 html, body {
   font-family: "Itim", cursive;
   background-color: #FDF0A6;
-  width: 100%;
+  max-width: 450px;
   height: 100%;
   margin: 0;
   overflow: hidden;
 }
 
 /* index page */
-.index_page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100dvh;
-}
-
 .app-wrapper {
   width: 100%;
   max-width: 450px;
   height: 100dvh;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* sec-01 */
