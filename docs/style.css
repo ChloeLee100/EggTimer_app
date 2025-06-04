@@ -28,8 +28,7 @@ body.index_page {
   height: 100%;
   overflow: hidden;
   display: flex;
-  justify-content: stretch;
-  align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -150,6 +149,7 @@ body.index_page {
   display: flex;
   align-items: center;
   justify-content: end;
+  width: 100%;
 }
 
 .home_icon {
@@ -268,6 +268,7 @@ body.index_page {
   display: flex;
   align-items: center;
   justify-content: end;
+  width: 100%;
 }
 
 .timer_page .sec-03 > a {
