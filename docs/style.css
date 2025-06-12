@@ -5,13 +5,16 @@
 
 html, body {
   font-family: "Itim", cursive;
-  background-color: #FDF0A6;
   width: 100%;
   height: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+body {
+  background-color: #FDF0A6;
 }
 
 /* index page */
@@ -42,12 +45,10 @@ body.index_page {
 .index_page .sec-01 > nav {
   font-size: 68px;
   color: var(--title-color);
-  -webkit-text-stroke: 2px transparent;
-  text-shadow: 4px 4px rgb(67, 67, 67);
-  paint-order: stroke fill;
   cursor: pointer;
-  background: rgb(67, 67, 67);
-  background-clip: text;
+  -webkit-text-stroke: 1px rgb(67, 67, 67);
+  text-shadow: 4px 4px rgb(67, 67, 67);
+  /* paint-order: stroke fill; */
 }
 
 /* sec-02 */
@@ -106,9 +107,9 @@ body.index_page {
   width: 90%;
   font-size: 45px;
   color: var(--title-color);
-  -webkit-text-stroke: 2px black;
-  /* text-shadow: 4px 4px rgb(67, 67, 67);
-  paint-order: stroke fill; */
+  -webkit-text-stroke: 1px rgb(67, 67, 67);
+  text-shadow: 4px 4px rgb(67, 67, 67);
+  /* paint-order: stroke fill; */
 }
 
 /* sec-02 */
@@ -201,9 +202,9 @@ body.index_page {
 .timer_page .sec-01 > nav {
   font-size: 50px;
   color: var(--title-color);
-  -webkit-text-stroke: 2px black;
-  /* text-shadow: 4px 4px rgb(67, 67, 67);
-  paint-order: stroke fill; */
+  -webkit-text-stroke: 1px rgb(67, 67, 67);
+  text-shadow: 4px 4px rgb(67, 67, 67);
+  paint-order: stroke fill;
 }
 
 /* sec-02 */
@@ -319,9 +320,9 @@ body.index_page {
 .timerEnd_page .sec-01 > nav {
   font-size: 68px;
   color: var(--title-color);
-  -webkit-text-stroke: 2px black;
-  /* text-shadow: 4px 4px rgb(67, 67, 67);
-  paint-order: stroke fill; */
+  -webkit-text-stroke: 1px rgb(67, 67, 67);
+  text-shadow: 4px 4px rgb(67, 67, 67);
+  /* paint-order: stroke fill; */
 }
 
 /* sec-02 */
