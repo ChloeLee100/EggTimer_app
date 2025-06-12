@@ -339,7 +339,7 @@ body.index_page {
   border: 2px solid black;
   transition: transform .1s ease;
   width: 80%;
-  height: 25%;
+  height: 20%;
 }
 
 .timerEnd_page .sec-02 > .btn-box > nav {

@@ -75,6 +75,12 @@ if (window.location.href.includes('timer.html')) {
     startBtn.addEventListener('click', function (e) {
       e.preventDefault();
       if (!timerInterval) {
+        alarmAudio.play().then(() => {
+          alarmAudio.pause();
+          alarmAudio.currentTime = 0;
+        }).catch(() => {
+        });
+    
         updateTimer();
         timerInterval = setInterval(updateTimer, 1000);
       }
